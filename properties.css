@@ -1,0 +1,216 @@
+ 
+ body{ background-color:#ccc;
+
+       }
+
+       .top-nav{
+         display: block;
+         background-position: relative;
+         width: 100%;
+         height: 4px;
+         
+       }
+
+       .top-nav li a{
+         text-decoration:none;
+         
+       }
+       .top-nav li a:hover{
+         background-color: red;
+         text-decoration: none;
+         color: #fff;
+       }
+
+   .top-nav ul{
+   	width:98%;
+      padding: 1px 10px;
+      margin-top: 10px;
+   	height: 100px;
+   	display: grid;
+   	grid-template-columns: repeat(6,1fr);
+   	list-style-type: none;
+   	grid-gap: 15px;
+   	background-color:#99d3ef;
+      justify-content: center;
+      text-align: center;
+      padding-top:15px;
+      font-size: 1.4rem;
+
+
+   }
+
+   .top-nav a{
+      list-style-type: none;
+          } 
+   .manage{
+   	display: grid;
+   	grid-template-columns: 1fr 2fr;
+       justify-content: center;
+       text-align: center;
+      grid-column:;
+   	grid-gap: 0px;
+   	
+   } 
+
+   .name{background-color: #5643f4;
+      position:relative;
+    padding-bottom: 20px;
+   	grid-column:;
+      color: #fff;
+      font-size: 1.5rem;
+      
+
+      }
+
+
+   .logo-img{ position: relative;
+             background-color: #5643f4; 
+              
+            }
+            .logo{
+               position: relative;
+               width:200px;
+               padding: 10px 20px;
+               grid-column:;
+               border-radius:300%;
+            }
+            .logo-img:hover{ 
+               background-color: red;
+               position: relative;
+
+             background-color: #5643f4; }
+
+             .logo:hover{
+               background-color: red;
+               position: relative;
+               width:200px;
+               padding: 10px 20px;
+               grid-column:;
+               border-radius:300%;
+            }
+            .cont-img,.container{
+               width: 100%;
+               background-size: cover;
+               background-position: center;
+
+            }
+             .top-container{
+
+         display: grid;
+         grid-gap: 10px;
+         grid-template-areas: 
+         "showcase showcase "
+         "showcase showcase "
+        }
+       
+		 .showcase{
+         width: 100%;
+         grid-area:showcase;
+         min-height: 400px;
+         padding-top:0px; 
+         background-size: cover;
+         background-position: center;
+         font-size: 4rem;
+         color: #fff;
+         text-align: center;
+         background-image:
+         linear-gradient(rgba(0,44,200,0.8),rgba(0,168,225,0.2)) ,url("Picture/you.jpeg");
+
+
+       }
+
+       .row{
+         width:100%;
+         display: grid;
+         grid-column-gap:auto;
+          
+         grid-template-columns:  1fr 1fr  1fr;
+         justify-content: center;
+         grid-column-start: center;
+         padding:10px 30px;
+         padding-left: 5px;
+         list-style: none;
+         background-color: #47a8a3;
+         font-size: 1.5rem;
+
+       }
+
+       .row ul{
+         width: 80%;
+         list-style: none;
+         text-align: center;
+         display:grid;
+          
+         
+          
+       }
+       .row li a{
+         list-style: none;
+         text-decoration: none;
+         text-align: center;
+         background-color: #47a8a3;
+         position:relative;
+         justify-content: center;
+         align-items: center;}
+          
+
+         .row li a:hover{
+         list-style: none;
+         text-decoration: none;
+         text-align: center;
+         background-color:red;
+         position:relative;
+      }
+       h5{
+         
+         width: 100%;
+         font-size: 1.7rem;
+         border-radius: 20px;
+         box-shadow:-20px 20px 20px;
+         
+       }
+
+       h5:hover{
+         font-size: 1.7rem;
+         transform: translateY(-10px);
+         box-shadow:20px -20px 10px;
+       }
+       .btn  {
+         text-align: center;
+         color: red;
+         width:20px;
+         text-decoration:none;
+         border-radius: 20px;
+         background-color:rgba(200,221,200,0.7);
+         margin:10px;
+
+       }
+
+        
+       .header-buttons a{
+         
+         height:1rem;
+         text-align: center;
+         text-decoration: none;
+         font-size:2rem;
+          border-radius: 20px;
+         background-color:rgba(200,201 ,200,0.5);
+
+         text-align: center;
+         color: #fff;
+         border:3px solid #fff ;
+       }
+       .header-buttons a:hover{
+         
+         height:1rem;
+         text-align: center;
+         text-decoration: none;
+         font-size:2rem;
+          border-radius: 20px;
+         background-color:rgba(200,2 ,200,0.5);
+         box-shadow: -10px 10px 20px;
+         text-align: center;
+         color: #fff;
+         border:3px solid #fff ;
+       }
+
